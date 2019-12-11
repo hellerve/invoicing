@@ -1,6 +1,6 @@
 # invoices
 
-The code for an invoicing system built on LaTex, Pandoc, Mustache, and YAML.
+The code for an invoicing system built on LaTeX, Pandoc, Mustache, and YAML.
 It is very similar to the one I use—except that my offers and invoices are
 usually in German and these are half-hearted translations. Don’t use the
 text for anything real, I haven’t checked it. This is for educational
