@@ -1,0 +1,31 @@
+number: 2020-0001
+offernum: 2020-0001
+title: Threat Modelling Workshop
+body: "
+This offer includes a threat modelling workshop of {\\bf two} days.
+
+
+
+The deliverables include all the materials produced for and during the workshop.
+"
+addressee: "
+\\tab Example Corp (German format) \\\\
+\\tab Example Street 1 \\\\
+\\tab 10000 Example city
+"
+positions:
+  - descr: "Workshop, including preparation and aftercare"
+    unit: PD
+    quantity: 2
+    price: 4000
+  - descr: "Additional consultations"
+    unit: PD
+    quantity: 0
+    price: 1000
+footer: "
+\\textit{\\textbf{Date of the workshop}}
+
+
+
+Possible dates for the workshop will be discussed outside of this offer.
+"

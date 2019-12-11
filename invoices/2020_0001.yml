@@ -1,0 +1,16 @@
+number: 2020-0001
+offernum: 2020-0001
+title: Threat Modelling workshop
+body: "
+A threat modelling workshop was given, and a final writeup produced.
+"
+addressee: "
+\\tab Example Corp (German format) \\\\
+\\tab Example Street 1 \\\\
+\\tab 10000 Example city
+"
+positions:
+  - descr: "Workshop, including preparation and aftercare"
+    unit: PD
+    quantity: 2
+    price: 4000

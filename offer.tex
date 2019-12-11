@@ -1,0 +1,43 @@
+\documentclass{invoice}
+
+{{=<= =>=}}
+
+\def \tab {\hspace*{3ex}}
+
+\begin{document}
+
+\hfil{\Huge Veit Heller}\hfil
+\bigskip\break
+\hrule
+\bigskip
+
+Example Street 1 \hfill Tax ID: xx/xxx/xxxx \\
+10000 Example City \hfill dude@example.com
+\\ \\
+{\bf Offer <= number =>} \\
+\tab <= title =>
+
+{\bf Recipient} \\
+<= addressee =>
+
+{\bf Date} \\
+\tab \today \\
+
+<= body =>
+
+
+\begin{invoiceTable}
+\hline
+<= #positions =>
+\unitrow{<= descr =>}{<= quantity =>}{<= price =>}{<= unit =>}
+<= /positions =>
+\end{invoiceTable}
+
+<= footer =>
+
+\textit{\textbf{Invoicing}}
+
+The invoice will be transmitted after the project handover and is to
+be paid within 14 days of receiving it.
+
+\end{document}

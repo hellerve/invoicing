@@ -1,0 +1,51 @@
+\documentclass{invoice}
+
+\usepackage{advdate}
+
+{{=<= =>=}}
+
+\def \tab {\hspace*{3ex}}
+
+\begin{document}
+
+\hfil{\Huge Veit Heller}\hfil
+\bigskip\break
+\hrule
+\bigskip
+
+Example Street 1 \hfill Tax ID: xx/xx/xxxxxxx \\
+10000 Example City \hfill dude@example.com
+\\ \\
+{\bf Invoice <= number =>} \\
+\tab <= title =>
+
+{\bf Recipient} \\
+<= addressee =>
+
+{\bf Date} \\
+\tab \today \\
+
+
+This invoice references offer <= offernum =>.
+
+<= body =>
+
+
+\begin{invoiceTable}
+\hline
+<= #positions =>
+\unitrow{<= descr =>}{<= quantity =>}{<= price =>}{<= unit =>}
+<= /positions =>
+\end{invoiceTable}
+
+Please remit the outstanding amount by \AdvanceDate[14]\today\thinspace
+to the following account:
+
+\begin{tabular}{l l}
+{\bf Recipient} & Veit Heller \\
+{\bf Bank Details} & Example Bank \\
+& BIC X \\
+& IBAN X
+\end{tabular}
+
+\end{document}
